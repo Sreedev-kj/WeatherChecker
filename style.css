@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    color: antiquewhite;
+}
+
+.container-fluid{
+    
+    background-image: url(weather4.jpg);
+    background-size: cover;
+   
+    height:auto;
+
+}
+
+.row{
+    padding-top: 90px;
+    padding-bottom: 80px;
+    
+}
+
+.header {
+    background-image: url(weather5.jpg);
+    background-size: cover;
+    background-position: relative;
+    
+    text-align: center;
+    padding: 80px;
+}
+
+.header h1 {
+    font-weight: 500;
+    font-size: 34px;
+    font-family: 'Indie Flower', cursive;
+    color: white;
+}
+.header p {
+    margin-top: 16px;
+    font-weight: 600;
+    font-size: 24px;
+    color: white;
+}
+
+
+.main {
+    background-image: url(weather5.jpg);
+    
+    
+}
+
+
+.inputs {
+    padding: 6rem 0 2rem 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.inputs input[type="text"] {
+    height: 3.5rem;
+    width: 30rem;
+    background: black;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border: none;
+    background-color: transparent;
+    border-bottom: solid ;
+    color: black;
+    border-radius: 2px;
+    margin-right:4px ;
+    
+}
+.inputs input[type="submit"] {
+    height: 3.5rem;
+    width: 6.5rem;
+    background: black;
+    font-weight: bold;
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 2px;
+}
+
+
+.display {
+    text-align: center;
+    color: black;
+}
+.wrapper {
+    margin: 0 9rem;
+    width: 50%;
+    background-color: ;
+    height: 40vh;
+    margin: 50px auto;
+    border-radius: 2px;
+}
+
+.wrapper h2{
+    padding: 5px 0;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+  }
+  .wrapper p{
+    text-align: center;
+    margin:10px 0;
+    font-size:30px;
+    font-weight: bold;
+  }
+   p.temp {
+    font-size: 90px;
+  }
